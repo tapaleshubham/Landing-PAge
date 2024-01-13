@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #4CAF50, #2196F3);
+      color: #fff;
+      overflow-x: hidden;
+    }
+
+    #fixed-menu {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 15px 0;
+      text-align: center;
+      z-index: 1000;
+      transition: background-color 0.3s ease;
+    }
+
+    #fixed-menu a {
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 20px;
+      margin: 0 10px;
+      display: inline-block;
+      transition: color 0.3s ease;
+    }
+
+    #fixed-menu a:hover {
+      color: #ffd700;
+    }
+
+    .landing-content {
+      margin-top: 80px;
+      text-align: center;
+      padding: 50px;
+    }
+
+    .landing-content h1 {
+      font-size: 3em;
+      margin-bottom: 20px;
+    }
+
+    .landing-content p {
+      font-size: 1.5em;
+      color: #f0f0f0;
+    }
+  </style>
+</head>
+<body>
+  <div id="fixed-menu">
+    <a href="#" class="menu-item">Home</a>
+    <a href="#" class="menu-item">About</a>
+    <a href="#" class="menu-item">Services</a>
+    <a href="#" class="menu-item">Contact</a>
+  </div>
+
+  <div class="landing-content">
+    <h1>Welcome to Our Landing Page</h1>
+    <p>This is a visually appealing landing page.</p>
+  </div>
+
+
+</body>
+</html>
